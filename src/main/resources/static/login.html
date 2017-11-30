@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>Document</title>
+</head>
+<body>
+<form id="form1" method = 'post'  action = 'http://localhost:8081/oauth/token'  >
+    用户名：<input type="text" name="username"/><br/>
+    密  码：<input type="password" name="password"/><br/>
+    授权类型：<input type="text" name="grant_type" value="password"/><br/>
+    作用域：<input type="text" name="scope" value="select"/><br/>
+    客户端Id：<input type="text" name="client_id" value="client_2"/><br/>
+    客户端密钥：<input type="text" name="client_secret" value="123456"/><br/>
+    <input type="submit" value="获取token" /><br/>
+</form>
+
+<br/>
+<br/>
+<br/>
+
+
+<form id="form2" method = 'post'  action = 'http://localhost:8081/oauth/token'  >
+    刷新token<input type="text" name="refresh_token"/><br/>
+    授权类型：<input type="text" name="grant_type" value="refresh_token"/><br/>
+    作用域：<input type="text" name="scope" value="select"/><br/>
+    客户端Id：<input type="text" name="client_id" value="client_2"/><br/>
+    客户端密钥：<input type="text" name="client_secret" value="123456"/><br/>
+    <input type="submit" value="刷新token" /><br/>
+</form>
+
+
+
+</body>
+</html>
