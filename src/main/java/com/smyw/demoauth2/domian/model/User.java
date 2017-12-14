@@ -8,7 +8,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * 用户实体
+ * 用户实体 模压
  * @author luojuan
  * @create 2017-11-20 11:35
  **/
