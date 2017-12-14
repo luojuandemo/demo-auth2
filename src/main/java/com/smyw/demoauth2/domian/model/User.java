@@ -9,7 +9,6 @@ import java.io.Serializable;
 
 /**
  * 用户实体
- *asdfasdf
  * @author luojuan
  * @create 2017-11-20 11:35
  **/
